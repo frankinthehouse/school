@@ -8,3 +8,6 @@ print(a)
 
 c = 3 
 print(c)
+
+d = 4
+print(d)
