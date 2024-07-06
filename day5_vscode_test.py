@@ -6,3 +6,5 @@ print(a+b,a-b)
 
 print(a)
 
+c = 3 
+print(c)
