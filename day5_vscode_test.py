@@ -11,3 +11,8 @@ print(c)
 
 d = 4
 print(d)
+c = 3
+print(c)
+
+e = 5
+print(e)
