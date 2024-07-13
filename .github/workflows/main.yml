@@ -11,3 +11,4 @@ jobs:
         - name: Run test py #動作名稱
           run: |
             python3 day6_CICD_test.py
+            bash tgbot.sh
