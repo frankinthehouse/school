@@ -17,6 +17,3 @@ jobs:
         - name: Run test2 py
           run: |
             python3 day6_CICD_test2.py
-        - name: tg massges
-          run: |
-            bash tgbot.sh
