@@ -8,9 +8,9 @@ jobs:
         runs-on: ubuntu-latest #運行環境
         steps:           #動作
         - uses: actions/checkout@v2 
-        - name: Install package
+        - name: send mail py
           run: |
-            pip3 install mediapipe
+            python3 day6_dean_mail.py
         - name: Run test py #動作名稱
           run: |
             python3 day6_CICD_test.py
