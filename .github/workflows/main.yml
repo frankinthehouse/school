@@ -10,7 +10,7 @@ jobs:
         - uses: actions/checkout@v2 
         - name: send mail py
           run: |
-            python3 day6_dean_mail.py
+            python3 day6_send_mail.py
         - name: Run test py #動作名稱
           run: |
             python3 day6_CICD_test.py
