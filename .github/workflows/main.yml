@@ -1,0 +1,13 @@
+name: Run my python # 動作
+on:  #甚麼時候去執行
+    push:  #每次push 時候
+
+jobs:
+    build:  #建立虛擬環境
+        name: do job1 # 任務名稱
+        runs-on: ubuntu-latest #運行環境
+        stpes:           #動作
+        - uses: actions/checkout@day6_commit_1 #選擇git 要使用甚麼版本
+        - name: Run test py #動作名稱
+          run: |
+            python3 day6_CICD_test.py
