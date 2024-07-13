@@ -7,4 +7,4 @@ a = [1,2,4,3]
 for i in a :
     print(i)
 
-sys.exit(135)
+##sys.exit(135)
