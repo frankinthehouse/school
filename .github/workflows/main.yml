@@ -14,6 +14,11 @@ jobs:
         - name: Run test py #動作名稱
           run: |
             python3 day6_CICD_test.py
-        - name: Run test2 py
+    build2:
+        name: do job2
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - name: Run test 2 py
           run: |
             python3 day6_CICD_test2.py
