@@ -31,6 +31,10 @@ for i in range(6):
     mail_split = mail.split("@")
     
     sht[1].update_value("C"+str(newi),mail_split[1])
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 356f1c4ee85f9ce8acffe6906b338646a3e5ceee
 
 
