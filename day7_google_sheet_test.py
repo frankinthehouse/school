@@ -2,7 +2,7 @@
 import pygsheets
 
 # 吃 google 的設定黨 
-gs = pygsheets.authorize(service_file = "infinite-glow-430001-e9-82f4dd2eb476.json")
+gs = pygsheets.authorize(service_file = ".infinite-glow-430001-e9-82f4dd2eb476.json")
 
 # 使用 url 開啟 表格 
 sht = gs.open_by_url("https://docs.google.com/spreadsheets/d/1ZZA1Wx6XFdIMKmMf0rl4awiVcCy1FxcnDo9drtpwYkY/edit?gid=0#gid=0")

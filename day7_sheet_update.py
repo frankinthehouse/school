@@ -1,6 +1,6 @@
 import pygsheets
 
-gs = pygsheets.authorize(service_file = "infinite-glow-430001-e9-82f4dd2eb476.json")
+gs = pygsheets.authorize(service_file = ".infinite-glow-430001-e9-82f4dd2eb476.json")
 
 sht = gs.open_by_url("https://docs.google.com/spreadsheets/d/1ZZA1Wx6XFdIMKmMf0rl4awiVcCy1FxcnDo9drtpwYkY/edit?gid=0#gid=0")
 
@@ -31,6 +31,6 @@ for i in range(6):
     mail_split = mail.split("@")
     
     sht[1].update_value("C"+str(newi),mail_split[1])
-    
+
 
 
